@@ -18,13 +18,13 @@ require_once "C:\\xampp\htdocs\udemy\inc\config.php"
     <div class="uk-section uk-container">
     <?php echo date('dS-M-Y') ?>
     <p>
-    <a href="/login.php">Login</a>
-    <a href="/register.php">Register</a>
+    <a href="login.php">Login</a>
+    <a href="register.php">Register</a>
     </p>
     </div>
 
 <?php 
 define('__FOOTER__',true);
-require_once('footer.php') ?>
+require_once('inc/footer.php') ?>
 </body>
 </html>

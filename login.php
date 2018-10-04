@@ -42,6 +42,6 @@ require_once "C:\\xampp\htdocs\udemy\inc\config.php"
     </div>
 <?php 
 define('__FOOTER__',true);
-require_once('footer.php') ?>
+require_once('inc/footer.php') ?>
 </body>
 </html>
